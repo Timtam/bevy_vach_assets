@@ -3,8 +3,8 @@ use bevy::{
         AssetReader, AssetReaderError, AssetSource, AssetSourceId, ErasedAssetReader, PathStream,
         Reader, VecReader,
     },
+    platform::collections::HashMap,
     prelude::{App, AssetApp, AssetPlugin, Plugin},
-    utils::HashMap,
 };
 use futures_lite::Stream;
 use std::{
